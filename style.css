@@ -1,9 +1,3 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 img {
   height: 200px;
   width: 200px;
@@ -16,8 +10,6 @@ body {
   font-family: Arial;
   font-size: 18px;
   color: #7c544b;
-  margin: 40px;
-  padding: 30px;
 }
 
 h1 {
@@ -40,14 +32,10 @@ a {
 }
 
 footer {
-  color: #ffffff;
-  text-align: center;
-  background-color: #34231c;
-  margin: 0;
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d9d9d9;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
