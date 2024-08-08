@@ -10,21 +10,18 @@ body {
   font-family: Arial;
   font-size: 18px;
   color: #7c544b;
+  margin: 30px;
 }
 
 h1 {
   font-size: 22px;
   color: #34231c;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-p {
-  margin-bottom: 20px;
-}
-
-ol, ul {
-  margin-bottom: 20px;
-  margin-left: 20px;
+ol {
+  margin: 10px;
+  padding: 10px;
 }
 
 a {
@@ -32,10 +29,14 @@ a {
 }
 
 footer {
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #584e4e;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0 5px;
   box-sizing: border-box;
-  background-color: #d9d9d9;
-  display: flex;
 }/*# sourceMappingURL=style.css.map */
